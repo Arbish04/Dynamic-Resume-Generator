@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    color: #0e3d63;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #0e3d63;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #1a5276;
+}
+
+/* Hover Effect */
+input:hover, textarea:hover {
+    border-color: #1a5276;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #0e3d63;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#resumeContent {
+    font-size: 18px;
+}
+
+#backToFormBtn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0e3d63;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#backToFormBtn:hover {
+    background-color: #1a5276;
+}
+
+#resumeContainer {
+    display: none;
+}
+
+
+
